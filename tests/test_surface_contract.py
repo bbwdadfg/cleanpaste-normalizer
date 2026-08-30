@@ -162,7 +162,12 @@ class SurfaceContractTests(unittest.TestCase):
                 self.assertEqual(surface["version"], expected_version)
                 self.assertEqual(surface["license"], "MIT")
                 self.assertEqual(surface["homepage"], "https://cleanpasteai.com/")
-                self.assertEqual(surface["repository"], "https://cleanpasteai.com/")
+                expected_repository = (
+                    "https://github.com/bbwdadfg/cleanpaste-normalizer"
+                    if surface["id"] == "packagist"
+                    else "https://cleanpasteai.com/"
+                )
+                self.assertEqual(surface["repository"], expected_repository)
                 self.assertEqual(surface["source"], "https://cleanpasteai.com/")
 
 
