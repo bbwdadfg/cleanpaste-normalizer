@@ -29,7 +29,7 @@ class SurfaceContractTests(unittest.TestCase):
                 for surface in manifest["surfaces"]
                 if surface["active"] and surface["id"] != "python-baseline"
             },
-            {"0.2.0"},
+            {"0.2.0", "0.2.2"},
         )
         self.assertNotIn("hex.pm", json.dumps(manifest).lower())
         self.assertNotIn("hexdocs", json.dumps(manifest).lower())
@@ -158,7 +158,8 @@ class SurfaceContractTests(unittest.TestCase):
             if not surface["active"] or surface["id"] == "python-baseline":
                 continue
             with self.subTest(surface=surface["id"]):
-                self.assertEqual(surface["version"], "0.2.0")
+                expected_version = "0.2.2" if surface["id"] in {"packagist", "go"} else "0.2.0"
+                self.assertEqual(surface["version"], expected_version)
                 self.assertEqual(surface["license"], "MIT")
                 self.assertEqual(surface["homepage"], "https://cleanpasteai.com/")
                 self.assertEqual(surface["repository"], "https://cleanpasteai.com/")

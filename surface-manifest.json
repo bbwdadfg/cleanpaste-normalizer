@@ -23,7 +23,7 @@
     {
       "id": "packagist",
       "active": true,
-      "version": "dev-main",
+      "version": "0.2.2",
       "license": "MIT",
       "homepage": "https://cleanpasteai.com/",
       "repository": "https://github.com/bbwdadfg/cleanpaste-normalizer",
@@ -223,18 +223,6 @@
       "path": "surfaces/cpan",
       "source_files": ["surfaces/cpan/lib/CleanPaste/Normalizer.pm"],
       "required_files": ["README.md", "LICENSE", "surface.json", "Makefile.PL", "META.json", "lib/CleanPaste/Normalizer.pm", "t/normalizer.t", "dry-run.sh"]
-    },
-    {
-      "id": "docker-cli",
-      "active": true,
-      "version": "0.2.0",
-      "license": "MIT",
-      "homepage": "https://cleanpasteai.com/",
-      "repository": "https://cleanpasteai.com/",
-      "source": "https://cleanpasteai.com/",
-      "path": "surfaces/docker-cli",
-      "source_files": ["surfaces/docker-cli/entrypoint.sh"],
-      "required_files": ["README.md", "LICENSE", "surface.json", "Dockerfile", "entrypoint.sh", "tests/test_entrypoint.sh", "dry-run.sh"]
     },
     {
       "id": "docker-image",
