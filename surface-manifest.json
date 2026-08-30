@@ -21,6 +21,18 @@
       "required_files": ["README.md", "LICENSE", "surface.json", "setup.cfg", "pyproject.toml", "src/cleanpaste_normalizer/normalizer.py", "tests/test_normalizer.py", "dry-run.sh"]
     },
     {
+      "id": "packagist",
+      "active": true,
+      "version": "dev-main",
+      "license": "MIT",
+      "homepage": "https://cleanpasteai.com/",
+      "repository": "https://github.com/bbwdadfg/cleanpaste-normalizer",
+      "source": "https://cleanpasteai.com/",
+      "path": ".",
+      "source_files": ["php/src/CleanPaste/Normalizer.php"],
+      "required_files": ["composer.json", "README.md", "LICENSE", "php/src/CleanPaste/Normalizer.php"]
+    },
+    {
       "id": "npm",
       "active": true,
       "version": "0.2.0",
