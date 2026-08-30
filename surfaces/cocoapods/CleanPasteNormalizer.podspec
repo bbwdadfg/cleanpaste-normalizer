@@ -8,5 +8,7 @@ Pod::Spec.new do |spec|
   spec.license = { :type => "MIT", :file => "LICENSE" }
   spec.source = { :git => "https://github.com/bbwdadfg/cleanpaste-normalizer.git", :tag => "v0.2.0" }
   spec.source_files = "surfaces/cocoapods/Sources/CleanPasteNormalizer.swift"
+  spec.ios.deployment_target = "13.0"
+  spec.osx.deployment_target = "10.15"
   spec.swift_version = "5.7"
 end
