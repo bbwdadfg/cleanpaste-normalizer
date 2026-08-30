@@ -1,7 +1,8 @@
 package = "cleanpaste-normalizer"
 version = "0.2.0-1"
 source = {
-   url = "https://cleanpasteai.com/releases/cleanpaste-normalizer-0.2.0.tar.gz"
+   url = "https://github.com/bbwdadfg/cleanpaste-normalizer/archive/refs/tags/v0.2.0.tar.gz",
+   dir = "cleanpaste-normalizer-0.2.0/surfaces/luarocks"
 }
 description = {
    summary = "Local pasted-text normalization helper.",
