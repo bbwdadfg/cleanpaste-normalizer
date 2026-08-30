@@ -1,0 +1,20 @@
+name: Publish CocoaPods
+
+on:
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: macos-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: false
+      - run: gem install cocoapods
+      - run: pod trunk push surfaces/cocoapods/CleanPasteNormalizer.podspec --allow-warnings --skip-import-validation
+        env:
+          COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
