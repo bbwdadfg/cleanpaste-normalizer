@@ -1,5 +1,9 @@
-Makefile.PL
-LICENSE
-README.md
+dry-run.sh
 lib/CleanPaste/Normalizer.pm
+LICENSE
+Makefile.PL
+MANIFEST
+META.json
+README.md
+surface.json
 t/normalizer.t

@@ -59,14 +59,14 @@
     {
       "id": "go",
       "active": true,
-      "version": "0.2.0",
+      "version": "0.2.2",
       "license": "MIT",
       "homepage": "https://cleanpasteai.com/",
       "repository": "https://cleanpasteai.com/",
       "source": "https://cleanpasteai.com/",
-      "path": "surfaces/go",
-      "source_files": ["surfaces/go/cleanpaste.go"],
-      "required_files": ["README.md", "LICENSE", "surface.json", "go.mod", "cleanpaste.go", "cleanpaste_test.go", "dry-run.sh"]
+      "path": ".",
+      "source_files": ["cleanpaste.go"],
+      "required_files": ["README.md", "LICENSE", "go.mod", "cleanpaste.go", "cleanpaste_test.go"]
     },
     {
       "id": "pkg-go-dev",
