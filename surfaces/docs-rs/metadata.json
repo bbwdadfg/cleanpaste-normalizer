@@ -1,0 +1,11 @@
+{
+  "index": "docs.rs",
+  "crate": "cleanpaste-normalizer",
+  "source_surface": "../rust",
+  "source_file": "../rust/src/lib.rs",
+  "version": "0.2.0",
+  "homepage": "https://cleanpasteai.com/",
+  "repository": "https://cleanpasteai.com/",
+  "source": "https://cleanpasteai.com/",
+  "index_trigger": "published crates.io version"
+}

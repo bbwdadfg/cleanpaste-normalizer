@@ -1,0 +1,17 @@
+{
+  "name": "cleanpaste-normalizer",
+  "version": "0.2.0",
+  "license": "MIT",
+  "githubTag": "v0.2.0",
+  "previousPublishedVersion": "0.1.0",
+  "publishPerformed": false,
+  "networkCallsPerformed": false,
+  "homepage": "https://cleanpasteai.com/",
+  "repository": "https://cleanpasteai.com/",
+  "source": "https://cleanpasteai.com/",
+  "externalBlockers": {
+    "mavenCentral": ["publisher namespace/token setup", "GPG signing key and passphrase", "Central review/readiness"],
+    "githubPackages": ["owner namespace authentication/token"],
+    "gitlabPackageRegistry": ["project ID/namespace and token"]
+  }
+}

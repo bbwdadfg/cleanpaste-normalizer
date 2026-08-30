@@ -1,0 +1,13 @@
+{
+  "name": "cleanpaste-normalizer",
+  "candidate": "Chocolatey",
+  "status": "future-candidate",
+  "active": false,
+  "version": "0.2.0",
+  "license": "MIT",
+  "homepage": "https://cleanpasteai.com/",
+  "repository": "https://cleanpasteai.com/",
+  "source": "https://cleanpasteai.com/",
+  "publish_command": null,
+  "review_required": true
+}

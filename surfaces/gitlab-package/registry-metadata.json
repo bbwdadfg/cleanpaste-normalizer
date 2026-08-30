@@ -1,0 +1,17 @@
+{
+  "registry": "https://gitlab.com/api/v4/projects/${CI_PROJECT_ID}/packages/npm/",
+  "package_manager": "npm",
+  "scope": "@bbwdadfg",
+  "package": "@bbwdadfg/cleanpaste-normalizer",
+  "version": "0.2.0",
+  "tag": "v0.2.0",
+  "project_id_env": "CI_PROJECT_ID",
+  "token_env": "NODE_AUTH_TOKEN",
+  "namespace_required": true,
+  "token_required": true,
+  "publish_performed": false,
+  "homepage": "https://cleanpasteai.com/",
+  "repository": "https://cleanpasteai.com/",
+  "source": "https://cleanpasteai.com/",
+  "publish_blockers": ["GitLab project ID and token are not configured"]
+}

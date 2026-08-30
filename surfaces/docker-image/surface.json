@@ -1,0 +1,1 @@
+{"id":"docker-image","ecosystem":"Docker image","name":"cleanpaste-normalizer","version":"0.2.0","license":"MIT","homepage":"https://cleanpasteai.com/","repository":"https://cleanpasteai.com/","source":"https://cleanpasteai.com/","source_files":["app.py"],"test_command":"python3 -m py_compile app.py"}

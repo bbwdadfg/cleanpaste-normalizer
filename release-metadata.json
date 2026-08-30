@@ -1,0 +1,12 @@
+{
+  "name": "cleanpaste-normalizer",
+  "release_version": "0.2.0",
+  "git_tag": "v0.2.0",
+  "python_baseline_version": "0.1.0",
+  "license": "MIT",
+  "homepage": "https://cleanpasteai.com/",
+  "repository": "https://cleanpasteai.com/",
+  "source": "https://cleanpasteai.com/",
+  "network_policy": "No package implementation or local preflight may make network calls.",
+  "publish_policy": "No registry upload, remote tag push, package publish, or credential flow is included."
+}

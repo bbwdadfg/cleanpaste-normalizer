@@ -1,0 +1,1 @@
+{"id":"cocoapods","ecosystem":"CocoaPods","name":"CleanPasteNormalizer","version":"0.2.0","license":"MIT","homepage":"https://cleanpasteai.com/","repository":"https://cleanpasteai.com/","source":"https://cleanpasteai.com/","source_files":["Sources/CleanPasteNormalizer.swift"],"test_command":"ruby -c CleanPasteNormalizer.podspec"}

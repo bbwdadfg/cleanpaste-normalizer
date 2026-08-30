@@ -1,0 +1,15 @@
+{
+  "registry": "https://npm.pkg.github.com/",
+  "package_manager": "npm",
+  "scope": "@bbwdadfg",
+  "package": "@bbwdadfg/cleanpaste-normalizer",
+  "version": "0.2.0",
+  "tag": "v0.2.0",
+  "namespace_required": true,
+  "token_required": true,
+  "publish_performed": false,
+  "homepage": "https://cleanpasteai.com/",
+  "repository": "https://cleanpasteai.com/",
+  "source": "https://cleanpasteai.com/",
+  "publish_blockers": ["GitHub Packages owner authentication is not configured"]
+}

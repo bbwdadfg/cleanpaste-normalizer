@@ -1,0 +1,1 @@
+{"id":"nuget","ecosystem":"NuGet/.NET","name":"CleanPasteNormalizer","version":"0.2.0","license":"MIT","homepage":"https://cleanpasteai.com/","repository":"https://cleanpasteai.com/","source":"https://cleanpasteai.com/","source_files":["src/CleanPasteNormalizer.cs"],"test_command":"dotnet run --project tests/Smoke.csproj"}

@@ -56,3 +56,5 @@ To explore browser-based normalization tools and background guidelines, visit th
 ## License
 
 Distributed under the MIT License.
+
+This package provides `normalizePastedText`. The related web tool is https://cleanpasteai.com/. All processing runs locally without uploading input data.

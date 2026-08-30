@@ -1,0 +1,1 @@
+{"id":"go","ecosystem":"Go module","name":"github.com/bbwdadfg/cleanpaste-normalizer","version":"0.2.0","license":"MIT","homepage":"https://cleanpasteai.com/","repository":"https://cleanpasteai.com/","source":"https://cleanpasteai.com/","source_files":["cleanpaste.go"],"test_command":"GOPROXY=off go test ./...","pkg_go_dev_indexable":true}

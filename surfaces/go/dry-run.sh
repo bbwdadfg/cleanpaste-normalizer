@@ -1,0 +1,3 @@
+#!/bin/sh
+set -eu
+GOPROXY=off GOSUMDB=off go test ./...

@@ -1,0 +1,12 @@
+{
+  "id": "python-baseline",
+  "ecosystem": "Python/PyPI",
+  "name": "cleanpaste-normalizer",
+  "version": "0.1.0",
+  "license": "MIT",
+  "homepage": "https://cleanpasteai.com/",
+  "repository": "https://cleanpasteai.com/",
+  "source": "https://cleanpasteai.com/",
+  "source_files": ["src/cleanpaste_normalizer/normalizer.py"],
+  "test_command": "PYTHONPATH=src python3 -m unittest discover -s tests"
+}

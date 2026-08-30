@@ -1,0 +1,5 @@
+Makefile.PL
+LICENSE
+README.md
+lib/CleanPaste/Normalizer.pm
+t/normalizer.t

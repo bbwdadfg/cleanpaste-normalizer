@@ -1,0 +1,1 @@
+{"id":"rust","ecosystem":"Rust crate","name":"cleanpaste-normalizer","version":"0.2.0","license":"MIT","homepage":"https://cleanpasteai.com/","repository":"https://cleanpasteai.com/","source":"https://cleanpasteai.com/","source_files":["src/lib.rs"],"test_command":"CARGO_NET_OFFLINE=true cargo test"}

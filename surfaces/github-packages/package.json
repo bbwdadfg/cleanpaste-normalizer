@@ -1,0 +1,12 @@
+{
+  "name": "@bbwdadfg/cleanpaste-normalizer",
+  "version": "0.2.0",
+  "description": "Local pasted-text normalization helper.",
+  "main": "src/index.js",
+  "files": ["src", "README.md", "LICENSE"],
+  "license": "MIT",
+  "homepage": "https://cleanpasteai.com/",
+  "repository": "https://cleanpasteai.com/",
+  "publishConfig": {"registry": "https://npm.pkg.github.com/"},
+  "scripts": {"test": "node --test test/index.test.js"}
+}

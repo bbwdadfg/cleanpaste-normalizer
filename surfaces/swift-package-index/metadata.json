@@ -1,0 +1,12 @@
+{
+  "index": "Swift Package Index",
+  "package": "CleanPasteNormalizer",
+  "source_surface": "../swift-package",
+  "package_manifest": "../../Package.swift",
+  "source_file": "../swift-package/Sources/CleanPasteNormalizer/CleanPasteNormalizer.swift",
+  "version": "0.2.0",
+  "homepage": "https://cleanpasteai.com/",
+  "repository": "https://cleanpasteai.com/",
+  "source": "https://cleanpasteai.com/",
+  "index_trigger": "public Git tag with a valid root Package.swift"
+}

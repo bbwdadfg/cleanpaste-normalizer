@@ -1,0 +1,1 @@
+{"id":"dart","ecosystem":"Dart pub","name":"cleanpaste_normalizer","version":"0.2.0","license":"MIT","homepage":"https://cleanpasteai.com/","repository":"https://cleanpasteai.com/","source":"https://cleanpasteai.com/","source_files":["lib/cleanpaste_normalizer.dart"],"test_command":"dart run test/cleanpaste_normalizer_test.dart"}

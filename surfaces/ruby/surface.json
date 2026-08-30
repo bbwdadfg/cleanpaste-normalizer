@@ -1,0 +1,1 @@
+{"id":"ruby","ecosystem":"Ruby gem","name":"cleanpaste-normalizer","version":"0.2.0","license":"MIT","homepage":"https://cleanpasteai.com/","repository":"https://cleanpasteai.com/","source":"https://cleanpasteai.com/","source_files":["lib/cleanpaste_normalizer.rb"],"test_command":"ruby -Ilib test/test_normalizer.rb"}

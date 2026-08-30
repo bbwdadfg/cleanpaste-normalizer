@@ -1,0 +1,12 @@
+{
+  "index": "pkg.go.dev",
+  "module": "github.com/bbwdadfg/cleanpaste-normalizer",
+  "source_surface": "../go",
+  "source_file": "../go/cleanpaste.go",
+  "version": "0.2.0",
+  "tag": "v0.2.0",
+  "homepage": "https://cleanpasteai.com/",
+  "repository": "https://cleanpasteai.com/",
+  "source": "https://cleanpasteai.com/",
+  "index_trigger": "public Go module tag or proxy fetch"
+}

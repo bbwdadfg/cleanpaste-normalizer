@@ -1,0 +1,14 @@
+{
+  "meta-spec": {"version": 2, "url": "https://metacpan.org/pod/CPAN::Meta::Spec"},
+  "name": "CleanPaste-Normalizer",
+  "version": "0.2.0",
+  "abstract": "Local pasted-text normalization helper",
+  "license": ["mit"],
+  "author": ["CleanPaste AI"],
+  "prereqs": {},
+  "resources": {
+    "homepage": "https://cleanpasteai.com/",
+    "repository": {"url": "https://cleanpasteai.com/"},
+    "bugtracker": {"web": "https://cleanpasteai.com/"}
+  }
+}
